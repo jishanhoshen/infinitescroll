@@ -26,7 +26,8 @@ while($row = $result->fetch_assoc()){
         "id" => $row['id'],
         "title" => $row['title'],
         "content" => $row['content'],
-        "post_date" => $row['post_date']
+        "post_date" => $row['post_date'],
+        "img" => $row['img']
     );
 }
 
